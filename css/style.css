@@ -689,6 +689,14 @@ video {
     display: none;
   }
 
+  .max-lg\:h-screen {
+    height: 100vh;
+  }
+
+  .max-lg\:h-\[80\%\] {
+    height: 80%;
+  }
+
   .max-lg\:min-h-screen {
     min-height: 100vh;
   }
@@ -719,6 +727,38 @@ video {
 
   .max-lg\:bg-\[var\(--neutral-dark-violet\)\] {
     background-color: var(--neutral-dark-violet);
+  }
+
+  .max-lg\:bg-\[\] {
+    background-color: ;
+  }
+
+  .max-lg\:bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+
+  .max-lg\:bg-\[url\(\'\/images\/\'\)\] {
+    background-image: url('/images/');
+  }
+
+  .max-lg\:bg-\[url\(\'\/images\/bg-pattern-mobile-nav\.svg\'\)\] {
+    background-image: url('/images/bg-pattern-mobile-nav.svg');
+  }
+
+  .max-lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .max-lg\:bg-contain {
+    background-size: contain;
+  }
+
+  .max-lg\:bg-bottom {
+    background-position: bottom;
+  }
+
+  .max-lg\:bg-no-repeat {
+    background-repeat: no-repeat;
   }
 
   .max-lg\:py-8 {
