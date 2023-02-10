@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Rubik': ['Rubik', 'sans-serif']
+        'DMSerifDisplay': ['DM Serif Display', 'sans-serif'],
+        'Karla': ['Karla', 'sans-serif']
       },
     },
   },

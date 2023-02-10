@@ -1,78 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | Insure landing page</title>
 
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-  How we work
-  Blog
-  Account
-  View plans
+<body class="text-base font-Karla font-normal max-lg:relative">
 
-  Humanizing your insurance.
+  <header class="flex items-center justify-between px-6 py-8">
+    <img src="images/logo.svg" alt="Logo">
+    <ul class="menu max-lg:hidden flex max-lg:flex-col gap-8 text-2xl uppercase items-center max-lg:px-4 max-lg:py-8  max-lg:absolute max-lg:top-24 max-lg:left-0 text-[var(--neutral-white)] max-lg:bg-[var(--neutral-dark-violet)] max-lg:w-full max-lg:min-h-screen">
+      <li><a href="#">How we work</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Account</a></li>
+      <li class="w-full p-4 flex  items-center justify-center border-2 border-solid border-[var(--neutral-white)]"><a href="#">View plans</a></li>
+    </ul>
+    <img class="menu-open lg:hidden" src="images/icon-hamburger.svg" alt="Open menu">
+    <img class="menu-close hidden" src="images/icon-close.svg" alt="Close menu">
+  </header>
+  <main class="bg-slate-500">
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
+    Humanizing your insurance.
 
-  View plans
+    Get your life insurance coverage easier and faster. We blend our expertise
+    and technology to help you find the plan that’s right for you. Ensure you
+    and your loved ones are protected.
 
-  We’re different
+    View plans
 
-  Snappy Process
+    We’re different
 
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
+    Snappy Process
 
-  Affordable Prices
+    Our application process can be completed in minutes, not hours. Don’t get
+    stuck filling in tedious forms.
 
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
+    Affordable Prices
 
-  People First
+    We don’t want you worrying about high monthly costs. Our prices may be low,
+    but we still offer the best coverage possible.
 
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
+    People First
 
-  Find out more about how we work
+    Our plans aren’t full of conditions and clauses to prevent payouts. We make
+    sure you’re covered when you need it.
 
-  How we work
+    Find out more about how we work
 
-  Our company
+    How we work
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+  </main>
 
-  Help me
+  <footer>
+    Our company
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
+    How we work
+    Why Insure?
+    View plans
+    Reviews
 
-  Contact
+    Help me
 
-  Sales
-  Support
-  Live chat
+    FAQ
+    Terms of use
+    Privacy policy
+    Cookies
 
-  Others
+    Contact
 
-  Careers
-  Press
-  Licenses
+    Sales
+    Support
+    Live chat
 
-  
+    Others
+
+    Careers
+    Press
+    Licenses
+  </footer>
+
   <script src="script.js"></script>
 </body>
+
 </html>
