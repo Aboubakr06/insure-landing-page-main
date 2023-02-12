@@ -970,6 +970,10 @@ video {
     place-self: start;
   }
 
+  .lg\:border-\[var\(--neutral-dark-violet\)\] {
+    border-color: var(--neutral-dark-violet);
+  }
+
   .lg\:bg-\[url\(\'\/images\/bg-pattern-footer-desktop\.svg\'\)\] {
     background-image: url('/images/bg-pattern-footer-desktop.svg');
   }
@@ -1014,6 +1018,10 @@ video {
 
   .lg\:font-bold {
     font-weight: 700;
+  }
+
+  .lg\:text-\[var\(--neutral-dark-violet\)\] {
+    color: var(--neutral-dark-violet);
   }
 
   .lg\:text-\[var\(--neutral-grey\)\] {
